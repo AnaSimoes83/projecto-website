@@ -479,8 +479,8 @@ iframe {
 }
 
 .navbar-fixed-top {
-	position: absolute!important;
-	background-color: rgba(0, 0, 0, 0.0)!important; 
+	position: fixed!important;
+	background-color: #fff!important; 
 	border-bottom: none;
 	transition: background-color 0.25s ease 0s;
 }
