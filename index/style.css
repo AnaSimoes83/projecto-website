@@ -184,8 +184,9 @@ iframe {
 }
 
 .section-white {
-	background: #fff;
-	padding: 90px 0 100px 0;
+	text-align: center;
+	background-color: #ffc472;
+	padding: 50px 50px 50px 50px;
 }
 
 .section-grey{
@@ -194,6 +195,7 @@ iframe {
 }
 
 .section-blue{
+	text-align: center;
 	background-color: #ff9732;
 	padding: 90px 0;
 }
@@ -904,55 +906,6 @@ ul.pricing-list li.price-tag-line a:hover{
 	border:1px solid #037aef;
 }
 
-.ribbon {
-   position: absolute;
-   right: 8px;
-   top: -5px;
-   z-index: 1;
-   overflow: hidden;
-   width: 75px; height: 75px; 
-   text-align: right;
-}
-
-.ribbon span {
-   font-size: 10px;
-   color: #fff; 
-   text-transform: uppercase; 
-   text-align: center;
-   font-weight: bold; line-height: 20px;
-   transform: rotate(45deg);
-   width: 100px;
-   display: block;
-   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
-   position: absolute;
-   top: 19px; right: -21px;
-   background-color: #1e90ff;
-}
-
-.ribbon span::before {
-   content: '';
-   position: absolute; 
-   left: 0px; top: 100%;
-   z-index: -1;
-   border-left: 3px solid #79A70A;
-   border-right: 3px solid transparent;
-   border-bottom: 3px solid transparent;
-   border-top: 3px solid #79A70A;
-   border-left-color: #1e5799;
-   border-top-color: #1e5799;
-}
-
-.ribbon span::after {
-   content: '';
-   position: absolute; 
-   right: 0%; top: 100%;
-   z-index: -1;
-   border-right: 3px solid #79A70A;
-   border-left: 3px solid transparent;
-   border-bottom: 3px solid transparent;
-   border-top: 3px solid #79A70A;
-   border-right-color: #1e5799; border-top-color: #1e5799;
-}
 
 /* ========================================================== */
 /* 			                   08. BLOG                       */
@@ -1302,7 +1255,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 .btn-blue {
 	font-family: 'Dosis', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 	font-weight: 600;
 	color: #fff;
@@ -1311,7 +1264,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
     text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
     letter-spacing: 1px;
 	border-radius: 5px 5px;
-	margin: 10px 10px 0 10px 0;
+	margin: 10px 10px 10px 10px;
 	padding: 20px 30px;
 	display: inline-block;
 	transition: all 0.4s ease-in-out;
@@ -1736,7 +1689,10 @@ ul.partners-mentions li img:hover {
 	}
 
 	.section-white {
-	    padding: 60px 0 70px 0!important;
+	    padding: 50px 0 50px 0!important;
+	    text-align: center;
+	    background: #037aef;
+	    border:1px solid #037aef;
 	}
 
 	.section-white.small-padding-bottom, .section-grey.small-padding-bottom {
