@@ -17,48 +17,32 @@
 
 <body>
 
-    <!--begin header -->
-    <header class="header">
-        <!--begin navbar-fixed-top -->
-        <nav class="navbar navbar-expand-lg navbar-fixed-top" style="padding:0 100px;">
-            <!--begin navbar -->
-            <a class="navbar-brand">
-                <!--begin logo -->KOMPARE
-            </a>
+<!--início secção CABEÇALHO-->
 
-            <!--begin navbar-toggler -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top" style="padding:0 100px;">
+
+            <a class="navbar-brand">KOMPARE</a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--end navbar-toggler -->
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-
-                <!--begin navbar-collapse -->
                 <ul class="navbar-nav" id="navbarCollapse" style="">
-
-                    <li class="nav-item"><a href="#home" class="btn-blue">INÍCIO</a></li>
-
-                    <li class="nav-item"><a href="#team" class="btn-blue">COMO FUNCIONA</a></li>
-
-                    <li class="nav-item"><a href="#pricing" class="btn-blue">SUBSCRIÇÃO</a></li>
-
-                    <li class="nav-item"><a href="#contact" class="btn-blue">CONTACTOS</a></li>
-
+                    <li class="nav-item"><a href="#home" class="menu-item btn-blue">INÍCIO</a></li>
+                    <li class="nav-item"><a href="#work" class="menu-item btn-blue">COMO FUNCIONA</a></li>
+                    <li class="nav-item"><a href="#pricing" class="menu-item btn-blue">SUBSCRIÇÃO</a></li>
+                    <li class="nav-item"><a href="#contact" class="menu-item btn-blue">CONTACTOS</a></li>
                 </ul>
             </div>
-            <!--end navbar-collapse -->
-        </nav>
-        <!--end navbar-fixed-top -->        
+        </nav>     
     </header>
-    <!--end header -->
 
-    <!--begin home section -->
+<!--início secção INÍCIO-->
+
     <section class="home-section" id="home">
-
-        <!--begin container -->
         <div class="container">
-
             <table>
                 <tbody>
                     <tr>
@@ -68,10 +52,9 @@
                         <td height="180px" width="700px">
                             <br>
                             <h3>Bem-vindo à KOMPARE, a melhor ferramenta para comparação de produtos!</h3>
-
-                            <p>A KOMPARE permite a cada utilizador personalizar as opções que pretende comparar para cada tipo de produto, adaptando-se facilmente às suas necessidades.</p>
-
-                            <p>Precisa de ajuda na suas escolhas? Utilize a KOMPARE!</p>
+                            <br>
+                            <p>A KOMPARE permite a cada utilizador personalizar as opções que pretende comparar para cada tipo de produto, adaptando-se facilmente às suas necessidades.<br>
+                            Precisa de ajuda na suas escolhas? Utilize a KOMPARE!</p>
 
                             <a href="http://webapp.projecto.local/" class="btn-blue">INICIAR</a>
                         </td>
@@ -84,21 +67,18 @@
         </div>
     </section>
 
-    <!--início secção COMO FUNCIONA-->
-    <section class="section-white" id="team">
+<!--início secção COMO FUNCIONA-->
 
-        <!--begin container-->
+    <section class="section-white" id="work" align="center">
         <div class="container">
 
             <h2 class="section-title">COMO FUNCIONA</h2>
-
             <p class="section-subtitle">Utilização em 3 passos. Simples e intuitivo!</p>
         </div>
     </section>
-    <!--end section-white -->
 
     <div class="container">
-        <table>
+        <table align="center">
             <tbody>
                 <tr>
                     <td colspan="2"></td>
@@ -139,105 +119,96 @@
                 </tr>
             </tbody>
         </table>
-
     </div>
-    <!--end container -->
 
-
-    <!--begin section-blue -->
-    <section class="section-blue">
-
-        <!--begin container -->
+    <section class="section-white" align="center">
         <div class="container">
 
-            <h2 class="white-text">EXEMPLO</h2>
+            <h3 class="white-text">EXEMPLO</h3>
 
             <p class="white-text">bla bla bla</p>
 
-        </div>
-        <!--end container -->
-
-    </section>
-    <!--end section-blue -->
-
-    <div class="team-item">
-
-        <br><br>	                
-        <img src="./index/smartphone-1957740_1920.jpg" height="300px" width="400px" class="team-img" alt="pic">
-
+        <br>	                
+        <img src="./index/smartphone-1957740_1920.jpg" height="150px" width="200px" alt="pic">
     </div>
-    <!--end team-item -->
+</section>
+        <br>
+        <br>
 
-    <!--início secção SUBSCRIÇÃO-->
-    <section class="section-white" id="pricing">
+<!--início secção SUBSCRIÇÃO-->
+
+    <section class="section-white" id="pricing" align="center">
 
         <!--begin container -->
         <div class="container">
-
             <h2 class="section-title">SUBSCRIÇÃO</h2>
-
             <p class="section-subtitle">
-                Escolha o pacote correspondente às suas necessidades.
-                <br>Ao fazer a sua subscrição, usufrua de um período experimental de 15 dias gratuito!
+                Escolha o pacote correspondente às suas necessidades.<br>
+                Ao fazer a sua subscrição, usufrua de um período experimental de 15 dias gratuito!
             </p>
         </div>
-
     </section>
 
     <div class="container">
-        <table>
+        <br>
+        <table align="center" class="price-box">
             <tbody>
                 <tr>
                     <td colspan="3"></td>
                 </tr>
                 <tr>
-                    <td width="500px">
+                    <td width="400px">
                         <ul class="pricing-list">
-                            <li class="price-title">BASE</li>
-                            <li class="price-value">5€</li>
+                            <li class="price-value"><b>BASE</b></li>
+                            <li class="price-title">5€</li>
                             <li class="price-subtitle">Por Mês</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Crie até 5 Produtos</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Até 5 opções por Produto</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Até 10 características comparáveis</li>
-                            <li class="price-tag-line"><a href="http://webapp.projecto.local/">SUBSCREVER</a></li>
+                            <li class="price-text"></i>Crie até 5 Produtos</li>
+                            <li class="price-text"></i>Até 5 opções por Produto</li>
+                            <li class="price-text"></i>Até 10 características comparáveis</li>
                         </ul>
+                        <a href="http://webapp.projecto.local/" class="btn-blue">SUBSCREVER</a>
                     </td>
-                    <td width="500px">
+                    <td width="400px">
                         <ul class="pricing-list">
-                            <li class="price-title">STANDARD</li>
-                            <li class="price-value">10€</li>
+                            <li class="price-value"><b>STANDARD</b></li>
+                            <li class="price-title">10€</li>
                             <li class="price-subtitle">Por Mês</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Crie até 20 Produtos</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Até 10 opções por Produto</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Até 20 características comparáveis</li>
-                            <li class="price-tag-line"><a href="http://webapp.projecto.local/">SUBSCREVER</a></li>
+                            <li class="price-text"></i>Crie até 20 Produtos</li>
+                            <li class="price-text"></i>Até 10 opções por Produto</li>
+                            <li class="price-text"></i>Até 20 características comparáveis</li>
                         </ul>
+                        <a href="http://webapp.projecto.local/" class="btn-blue">SUBSCREVER</a>
                     </td>
-                    <td width="500px">
+                    <td width="400px">
                         <ul class="pricing-list">
-                            <li class="price-title white-text">PRO</li>
-                            <li class="price-value white-text">19€</li>
-                            <li class="price-subtitle white-text">Por Mês</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Sem limite de novos Produtos</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Até 50 opções por Produto</li>
-                            <li class="price-text"><i class="fas fa-check blue"></i>Até 30 características comparáveis</li>
-                            <li class="price-tag-line"><a href="http://webapp.projecto.local/">SUBSCREVER</a></li>
+                            <li class="price-value"><b>PRO</b></li>
+                            <li class="price-title">19€</li>
+                            <li class="price-subtitle">Por Mês</li>
+                            <li class="price-text"></i>Sem limite de novos Produtos</li>
+                            <li class="price-text"></i>Até 50 opções por Produto</li>
+                            <li class="price-text"></i>Até 30 características comparáveis</li>
                         </ul>
+                        <a href="http://webapp.projecto.local/" class="btn-blue">SUBSCREVER</a>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <!--início secção CONTACTOS-->
-    <!--begin contact -->
-    <section id="contact" align="center">
+<!--início secção CONTACTOS-->
 
-        <!--begin container -->
-        <div class="container">
+    <section class="section-white" id="contact" align="center">
 
-            <h4>Esteja sempre a par das novidades da KOMPARE!<br>
-            Introduza o seu <i>e-mail</i> e receba a nossa <i>newsletter</i> regularmente.</h4>
+        <div class="container" align="center">
+            <h2 class="section-title">CONTACTOS</h2>
+        </div>
+    </section>
+
+        <div class="container" align="center">
+
+            <br>
+            <h5>Esteja sempre a par das novidades da KOMPARE!<br>
+            Introduza o seu <i>e-mail</i> e receba a nossa <i>newsletter</i> regularmente.</h5>
 
             <table align="center">
                 <tbody>
@@ -245,50 +216,30 @@
                         <td colspan="2"></td>
                     </tr>
                     <tr>
-                        <td height="150px" width="180px"><img src="./index/german-2566426_1920.jpg" height="120px" width="150px" alt="pic"> </td>
-                        <td height="150px">
-                            <!--begin newsletter_form_box -->
-                            <div class="newsletter_form_box">                            
-
-                                <input id="email_newsletter" type="email" name="nf_email" placeholder="Enter Your Email Address">  
-
-                                <input type="submit" value="SUBSCREVER" id="submit-button-newsletter">			                        
-                            </div>
-                            <!--end newsletter_form_box -->
+                        <td height="170px" width="200px"><img src="./index/german-2566426_1920.jpg" height="170px" width="200px" alt="pic"> </td>
+                        <td height="170px">
+                              <input type="email" name="nf_email" placeholder="Introduza o seu e-mail">
+                              <input type="submit" value="Subscrever Newsletter" class="submit-button-newsletter">
                         </td>
                     </tr>
                 </tbody>
             </table>
+            <br>
 
         </div>
-        <!--end container -->
-
-        <br>
 
     </section>
-    <!--end newsletter section -->
 
-    <!--begin container-->
-    <section class="section-white" id="pricing">
-        <div class="container" align="center">
-
-            <h4>CONTACTOS</h4>
-        </div>
-    </section>
-
-
-    <!--begin container -->
     <div class="container">
-
-        <table>
+        <table align="center">
             <tbody>
                 <tr>
                     <td colspan="2"></td>
                 </tr>
                 <tr>
-                    <td height="220px" width="350px">
+                    <td height="280px" width="400px">
                         <div style="overflow:hidden; position:relative;">
-                            <iframe width="350" height="220" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Parque%20Tecnol%C3%B3gico%20de%20%C3%93bidos+(T%C3%ADtulo)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <iframe width="400" height="280" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Parque%20Tecnol%C3%B3gico%20de%20%C3%93bidos+(T%C3%ADtulo)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                             <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
                                 <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/en/">embedgooglemaps EN</a>
                                     & <a href="https://newyorkhoponhopoffbus.nl">deal krijgen</a></small>
@@ -298,84 +249,75 @@
                         </div>
                     </td>
                     <td width="100px"></td>
-                    <td height="440px" width="500px">
-                        <h5>MORADA</h5>
-                        <p>
-                            Parque Tecnológico de Óbidos - Edifícios Centrais<br>
-                            Rua da Criatividade<br>
-                            2510-216 Óbidos<br>
-                        PORTUGAL</p>
-                    </td>
-                </tr>
+                    <td height="280px" width="400px">
+                        <b>MORADA</b>
+                        <br>
+                        Parque Tecnológico de Óbidos - Edifícios Centrais<br>
+                        Rua da Criatividade<br>
+                        2510-216 Óbidos<br>
+                        PORTUGAL<br>
+                        <br>
+                        <b>E-MAIL</b>
+                        <br>
+                        obitec@cm-obidos.pt
+                        </td>
+                    </tr>
             </tbody>
         </table>
-
     </div>
 
+<!--início secção RODAPÉ -->
 
-
-    <!--begin footer -->
-    <div class="footer">            
-        <!--begin container -->
-        <div class="container">        
-            <!--begin row -->
-            <div class="row">            
-                <!--begin col-md-12 -->
-                <div class="col-md-12 text-center">
-                    <!--begin footer_social -->
+    <div class="footer">
+        <div class="container">
                     <ul class="footer_social">
                         <li>
                             <a href="https://www.facebook.com/Parque.Tecnologico.Obidos/">
-                                <img src="./index/facebook.png" height="50px" width="50px">
-                            </a>
+                                <img src="./index/facebook.png" height="50px" width="50px"></a>
                         </li>
                         <li></li>
                         <li>
                             <a href="https://www.instagram.com/parque_tecnologico_obidos/">
-                                <img src="./index/instagram.jfif" height="50px" width="50px">
-                            </a>
+                                <img src="./index/instagram.jfif" height="50px" width="50px"></a>
                         </li>
                         <li></li>
                         <li>
                             <a href="https://www.youtube.com/channel/UCpGkyjfosBGatmyu1JBeWDg">
-                                <img src="./index/youtube.png" height="50px" width="50px">
-                            </a>
+                                <img src="./index/youtube.png" height="50px" width="50px"></a>
                         </li>
                         <li></li>
                         <li>
                             <a href="https://www.linkedin.com/company/obidos-parque/">
-                                <img src="./index/linkedin.jfif" height="50px" width="50px">
-                            </a>
+                                <img src="./index/linkedin.jfif" height="50px" width="50px"></a>
                         </li>
-
                     </ul>
-                    <!--end footer_social -->
 
                     <br>
-                    <p><b>KOMPARE 2019</b></p>
-                    <p><i>Designed by</i> Ana Boavida, Ana Simões, Cláudia Oliveira, Odette Paulo</p>
-
-                </div>
-                <!--end col-md-6 -->
-
-            </div>
-            <!--end row -->
-
+                    <br>
+                    <p align="center"><b>KOMPARE 2019</b><br>
+                    Imagens retiradas de <a href="https://pixabay.com">Pixabay.com</a>
+                    <br>
+                    <br>
+                    <i>Designed by</i> Ana Boavida, Ana Simões, Cláudia Oliveira, Odette Paulo</p>
         </div>
-        <!--end container -->
-
     </div>
-    <!--end footer -->
 
-    <!-- Load JS here for greater good =============================-->
-    <script src="./Essentials - SaaS Landing Page Template_files/jquery-3.3.1.min.js.transferir"></script>
-    <script src="./Essentials - SaaS Landing Page Template_files/bootstrap.min.js.transferir"></script>
-    <script src="./Essentials - SaaS Landing Page Template_files/jquery.scrollTo-min.js.transferir"></script>
-    <script src="./Essentials - SaaS Landing Page Template_files/jquery.magnific-popup.min.js.transferir"></script>
-    <script src="./Essentials - SaaS Landing Page Template_files/jquery.nav.js.transferir"></script>
-    <script src="./Essentials - SaaS Landing Page Template_files/wow.js.transferir"></script>
-    <script src="./Essentials - SaaS Landing Page Template_files/plugins.js.transferir"></script>
-    <script src="./Essentials - SaaS Landing Page Template_files/custom.js.transferir"></script>
+<!-- Ficheiros JS -->
+    <script src="index/jquery-3.3.1.min.js.transferir"></script>
+    <script src="index/bootstrap.min.js.transferir"></script>
+    <script src="index/jquery.scrollTo-min.js.transferir"></script>
+    <script src="index/jquery.magnific-popup.min.js.transferir"></script>
+    <script src="index/jquery.nav.js.transferir"></script>
+    <script src="index/wow.js.transferir"></script>
+    <script src="index/plugins.js.transferir"></script>
+    <script src="index/custom.js.transferir"></script>
+
+    <script type="text/javascript">
+        $(".menu-item").click(function() {
+            sc = $(window).scrollTop();
+            $(window).scrollTop( sc+300 );
+        });
+    </script>
 
 </body>
 </html>
